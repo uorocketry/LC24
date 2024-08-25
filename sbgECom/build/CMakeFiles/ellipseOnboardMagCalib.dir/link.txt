@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o -o ellipseOnboardMagCalib  libsbgECom.a

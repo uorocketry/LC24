@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  ".0.0"
+  "CMakeFiles/argtable3.dir/arg_cmd.c.o"
+  "CMakeFiles/argtable3.dir/arg_cmd.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_date.c.o"
+  "CMakeFiles/argtable3.dir/arg_date.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_dbl.c.o"
+  "CMakeFiles/argtable3.dir/arg_dbl.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_dstr.c.o"
+  "CMakeFiles/argtable3.dir/arg_dstr.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_end.c.o"
+  "CMakeFiles/argtable3.dir/arg_end.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_file.c.o"
+  "CMakeFiles/argtable3.dir/arg_file.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_hashtable.c.o"
+  "CMakeFiles/argtable3.dir/arg_hashtable.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_int.c.o"
+  "CMakeFiles/argtable3.dir/arg_int.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_lit.c.o"
+  "CMakeFiles/argtable3.dir/arg_lit.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_rem.c.o"
+  "CMakeFiles/argtable3.dir/arg_rem.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_rex.c.o"
+  "CMakeFiles/argtable3.dir/arg_rex.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_str.c.o"
+  "CMakeFiles/argtable3.dir/arg_str.c.o.d"
+  "CMakeFiles/argtable3.dir/arg_utils.c.o"
+  "CMakeFiles/argtable3.dir/arg_utils.c.o.d"
+  "CMakeFiles/argtable3.dir/argtable3.c.o"
+  "CMakeFiles/argtable3.dir/argtable3.c.o.d"
+  "CMakeFiles/argtable3.dir/getopt_long.c.o"
+  "CMakeFiles/argtable3.dir/getopt_long.c.o.d"
+  "libargtable3.pdb"
+  "libargtable3.so"
+  "libargtable3.so.0.0"
+  "libargtable3.so.0.0.0"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/argtable3.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/pulseMinimal.dir/examples/pulseMinimal/src/pulseMinimal.c.o -o pulseMinimal  libsbgECom.a

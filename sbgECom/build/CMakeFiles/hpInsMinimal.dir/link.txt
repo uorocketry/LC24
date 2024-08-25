@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/hpInsMinimal.dir/examples/hpInsMinimal/src/hpInsMinimal.c.o -o hpInsMinimal  libsbgECom.a

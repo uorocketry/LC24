@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/sbgEComApi.dir/tools/sbgEComApi/src/main.c.o -o sbgEComApi  libsbgECom.a _deps/argtable3-build/src/libargtable3_static.a

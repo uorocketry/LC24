@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+96052c614d5c30691ae011fb4ba3ed0e _deps/argtable3-src/dist/argtable3.c

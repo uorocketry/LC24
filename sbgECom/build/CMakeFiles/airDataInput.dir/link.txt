@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/airDataInput.dir/examples/airDataInput/src/airDataInput.c.o -o airDataInput  libsbgECom.a

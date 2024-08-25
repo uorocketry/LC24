@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/ellipseMinimal.dir/examples/ellipseMinimal/src/ellipseMinimal.c.o -o ellipseMinimal  libsbgECom.a
