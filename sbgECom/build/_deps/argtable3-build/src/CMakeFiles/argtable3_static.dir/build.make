@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/depend.make
@@ -72,212 +72,212 @@ include _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o: _deps/argtable3-src/src/arg_cmd.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o -MF CMakeFiles/argtable3_static.dir/arg_cmd.c.o.d -o CMakeFiles/argtable3_static.dir/arg_cmd.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o -MF CMakeFiles/argtable3_static.dir/arg_cmd.c.o.d -o CMakeFiles/argtable3_static.dir/arg_cmd.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_cmd.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c > CMakeFiles/argtable3_static.dir/arg_cmd.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c > CMakeFiles/argtable3_static.dir/arg_cmd.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_cmd.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c -o CMakeFiles/argtable3_static.dir/arg_cmd.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_cmd.c -o CMakeFiles/argtable3_static.dir/arg_cmd.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o: _deps/argtable3-src/src/arg_date.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o -MF CMakeFiles/argtable3_static.dir/arg_date.c.o.d -o CMakeFiles/argtable3_static.dir/arg_date.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o -MF CMakeFiles/argtable3_static.dir/arg_date.c.o.d -o CMakeFiles/argtable3_static.dir/arg_date.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_date.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_date.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_date.c > CMakeFiles/argtable3_static.dir/arg_date.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_date.c > CMakeFiles/argtable3_static.dir/arg_date.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_date.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_date.c -o CMakeFiles/argtable3_static.dir/arg_date.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_date.c -o CMakeFiles/argtable3_static.dir/arg_date.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o: _deps/argtable3-src/src/arg_dbl.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o -MF CMakeFiles/argtable3_static.dir/arg_dbl.c.o.d -o CMakeFiles/argtable3_static.dir/arg_dbl.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o -MF CMakeFiles/argtable3_static.dir/arg_dbl.c.o.d -o CMakeFiles/argtable3_static.dir/arg_dbl.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_dbl.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c > CMakeFiles/argtable3_static.dir/arg_dbl.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c > CMakeFiles/argtable3_static.dir/arg_dbl.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_dbl.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c -o CMakeFiles/argtable3_static.dir/arg_dbl.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dbl.c -o CMakeFiles/argtable3_static.dir/arg_dbl.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o: _deps/argtable3-src/src/arg_dstr.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o -MF CMakeFiles/argtable3_static.dir/arg_dstr.c.o.d -o CMakeFiles/argtable3_static.dir/arg_dstr.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o -MF CMakeFiles/argtable3_static.dir/arg_dstr.c.o.d -o CMakeFiles/argtable3_static.dir/arg_dstr.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_dstr.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c > CMakeFiles/argtable3_static.dir/arg_dstr.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c > CMakeFiles/argtable3_static.dir/arg_dstr.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_dstr.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c -o CMakeFiles/argtable3_static.dir/arg_dstr.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_dstr.c -o CMakeFiles/argtable3_static.dir/arg_dstr.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o: _deps/argtable3-src/src/arg_end.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o -MF CMakeFiles/argtable3_static.dir/arg_end.c.o.d -o CMakeFiles/argtable3_static.dir/arg_end.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_end.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o -MF CMakeFiles/argtable3_static.dir/arg_end.c.o.d -o CMakeFiles/argtable3_static.dir/arg_end.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_end.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_end.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_end.c > CMakeFiles/argtable3_static.dir/arg_end.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_end.c > CMakeFiles/argtable3_static.dir/arg_end.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_end.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_end.c -o CMakeFiles/argtable3_static.dir/arg_end.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_end.c -o CMakeFiles/argtable3_static.dir/arg_end.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o: _deps/argtable3-src/src/arg_file.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o -MF CMakeFiles/argtable3_static.dir/arg_file.c.o.d -o CMakeFiles/argtable3_static.dir/arg_file.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o -MF CMakeFiles/argtable3_static.dir/arg_file.c.o.d -o CMakeFiles/argtable3_static.dir/arg_file.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_file.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_file.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_file.c > CMakeFiles/argtable3_static.dir/arg_file.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_file.c > CMakeFiles/argtable3_static.dir/arg_file.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_file.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_file.c -o CMakeFiles/argtable3_static.dir/arg_file.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_file.c -o CMakeFiles/argtable3_static.dir/arg_file.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o: _deps/argtable3-src/src/arg_hashtable.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o -MF CMakeFiles/argtable3_static.dir/arg_hashtable.c.o.d -o CMakeFiles/argtable3_static.dir/arg_hashtable.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o -MF CMakeFiles/argtable3_static.dir/arg_hashtable.c.o.d -o CMakeFiles/argtable3_static.dir/arg_hashtable.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_hashtable.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c > CMakeFiles/argtable3_static.dir/arg_hashtable.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c > CMakeFiles/argtable3_static.dir/arg_hashtable.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_hashtable.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c -o CMakeFiles/argtable3_static.dir/arg_hashtable.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_hashtable.c -o CMakeFiles/argtable3_static.dir/arg_hashtable.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o: _deps/argtable3-src/src/arg_int.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o -MF CMakeFiles/argtable3_static.dir/arg_int.c.o.d -o CMakeFiles/argtable3_static.dir/arg_int.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_int.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o -MF CMakeFiles/argtable3_static.dir/arg_int.c.o.d -o CMakeFiles/argtable3_static.dir/arg_int.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_int.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_int.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_int.c > CMakeFiles/argtable3_static.dir/arg_int.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_int.c > CMakeFiles/argtable3_static.dir/arg_int.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_int.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_int.c -o CMakeFiles/argtable3_static.dir/arg_int.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_int.c -o CMakeFiles/argtable3_static.dir/arg_int.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o: _deps/argtable3-src/src/arg_lit.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o -MF CMakeFiles/argtable3_static.dir/arg_lit.c.o.d -o CMakeFiles/argtable3_static.dir/arg_lit.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_lit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o -MF CMakeFiles/argtable3_static.dir/arg_lit.c.o.d -o CMakeFiles/argtable3_static.dir/arg_lit.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_lit.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_lit.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_lit.c > CMakeFiles/argtable3_static.dir/arg_lit.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_lit.c > CMakeFiles/argtable3_static.dir/arg_lit.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_lit.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_lit.c -o CMakeFiles/argtable3_static.dir/arg_lit.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_lit.c -o CMakeFiles/argtable3_static.dir/arg_lit.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o: _deps/argtable3-src/src/arg_rem.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o -MF CMakeFiles/argtable3_static.dir/arg_rem.c.o.d -o CMakeFiles/argtable3_static.dir/arg_rem.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o -MF CMakeFiles/argtable3_static.dir/arg_rem.c.o.d -o CMakeFiles/argtable3_static.dir/arg_rem.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rem.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_rem.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rem.c > CMakeFiles/argtable3_static.dir/arg_rem.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rem.c > CMakeFiles/argtable3_static.dir/arg_rem.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_rem.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rem.c -o CMakeFiles/argtable3_static.dir/arg_rem.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rem.c -o CMakeFiles/argtable3_static.dir/arg_rem.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o: _deps/argtable3-src/src/arg_rex.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o -MF CMakeFiles/argtable3_static.dir/arg_rex.c.o.d -o CMakeFiles/argtable3_static.dir/arg_rex.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o -MF CMakeFiles/argtable3_static.dir/arg_rex.c.o.d -o CMakeFiles/argtable3_static.dir/arg_rex.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rex.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_rex.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rex.c > CMakeFiles/argtable3_static.dir/arg_rex.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rex.c > CMakeFiles/argtable3_static.dir/arg_rex.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_rex.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_rex.c -o CMakeFiles/argtable3_static.dir/arg_rex.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_rex.c -o CMakeFiles/argtable3_static.dir/arg_rex.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o: _deps/argtable3-src/src/arg_str.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o -MF CMakeFiles/argtable3_static.dir/arg_str.c.o.d -o CMakeFiles/argtable3_static.dir/arg_str.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o -MF CMakeFiles/argtable3_static.dir/arg_str.c.o.d -o CMakeFiles/argtable3_static.dir/arg_str.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_str.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_str.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_str.c > CMakeFiles/argtable3_static.dir/arg_str.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_str.c > CMakeFiles/argtable3_static.dir/arg_str.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_str.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_str.c -o CMakeFiles/argtable3_static.dir/arg_str.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_str.c -o CMakeFiles/argtable3_static.dir/arg_str.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o: _deps/argtable3-src/src/arg_utils.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o -MF CMakeFiles/argtable3_static.dir/arg_utils.c.o.d -o CMakeFiles/argtable3_static.dir/arg_utils.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o -MF CMakeFiles/argtable3_static.dir/arg_utils.c.o.d -o CMakeFiles/argtable3_static.dir/arg_utils.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_utils.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/arg_utils.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_utils.c > CMakeFiles/argtable3_static.dir/arg_utils.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_utils.c > CMakeFiles/argtable3_static.dir/arg_utils.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/arg_utils.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_utils.c -o CMakeFiles/argtable3_static.dir/arg_utils.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_utils.c -o CMakeFiles/argtable3_static.dir/arg_utils.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o: _deps/argtable3-src/src/argtable3.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o -MF CMakeFiles/argtable3_static.dir/argtable3.c.o.d -o CMakeFiles/argtable3_static.dir/argtable3.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o -MF CMakeFiles/argtable3_static.dir/argtable3.c.o.d -o CMakeFiles/argtable3_static.dir/argtable3.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/argtable3.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3.c > CMakeFiles/argtable3_static.dir/argtable3.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3.c > CMakeFiles/argtable3_static.dir/argtable3.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/argtable3.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3.c -o CMakeFiles/argtable3_static.dir/argtable3.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3.c -o CMakeFiles/argtable3_static.dir/argtable3.c.s
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/flags.make
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o: _deps/argtable3-src/src/getopt_long.c
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o -MF CMakeFiles/argtable3_static.dir/getopt_long.c.o.d -o CMakeFiles/argtable3_static.dir/getopt_long.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/getopt_long.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o -MF CMakeFiles/argtable3_static.dir/getopt_long.c.o.d -o CMakeFiles/argtable3_static.dir/getopt_long.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/getopt_long.c
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/argtable3_static.dir/getopt_long.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/getopt_long.c > CMakeFiles/argtable3_static.dir/getopt_long.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/getopt_long.c > CMakeFiles/argtable3_static.dir/getopt_long.c.i
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/argtable3_static.dir/getopt_long.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/getopt_long.c -o CMakeFiles/argtable3_static.dir/getopt_long.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/getopt_long.c -o CMakeFiles/argtable3_static.dir/getopt_long.c.s
 
 # Object files for target argtable3_static
 argtable3_static_OBJECTS = \
@@ -317,19 +317,19 @@ _deps/argtable3-build/src/libargtable3_static.a: _deps/argtable3-build/src/CMake
 _deps/argtable3-build/src/libargtable3_static.a: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o
 _deps/argtable3-build/src/libargtable3_static.a: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make
 _deps/argtable3-build/src/libargtable3_static.a: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libargtable3_static.a"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/argtable3_static.dir/cmake_clean_target.cmake
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/argtable3_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libargtable3_static.a"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/argtable3_static.dir/cmake_clean_target.cmake
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/argtable3_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build: _deps/argtable3-build/src/libargtable3_static.a
 .PHONY : _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/clean:
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/argtable3_static.dir/cmake_clean.cmake
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src && $(CMAKE_COMMAND) -P CMakeFiles/argtable3_static.dir/cmake_clean.cmake
 .PHONY : _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/clean
 
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/depend
 

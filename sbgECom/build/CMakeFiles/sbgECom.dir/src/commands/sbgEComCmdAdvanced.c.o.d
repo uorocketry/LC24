@@ -1,8 +1,9 @@
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.c \
- /usr/include/stdc-predef.h /home/ns/Rocketry/sbgECom/common/sbgCommon.h \
- /home/ns/Rocketry/sbgECom/common/sbgConfig.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h /usr/include/assert.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.c \
+ /usr/include/stdc-predef.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgConfig.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h /usr/include/assert.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
@@ -60,48 +61,48 @@ CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/sbgTypes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h \
- /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgTypes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
- /home/ns/Rocketry/sbgECom/src/sbgECom.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.h \
- /home/ns/Rocketry/sbgECom/src/sbgECanId.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComIds.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComIds.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.h \
- /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.h \
- /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.h \
- /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.h
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgECanId.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComIds.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComIds.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.h

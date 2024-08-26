@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DSBG_ECOM_USE_DEPRECATED_MACROS -D_XOPEN_SOURCE=700 -Dargtable3_EXPORTS
 
-C_INCLUDES = -I/home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src
+C_INCLUDES = -I/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src
 
 C_FLAGS =  -std=c89 -Wpedantic -Wextra -Wall -O3 -DNDEBUG -std=gnu99 -fPIC
 

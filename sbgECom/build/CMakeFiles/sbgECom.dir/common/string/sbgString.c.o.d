@@ -1,5 +1,5 @@
 CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: \
- /home/ns/Rocketry/sbgECom/common/string/sbgString.c \
+ /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.c \
  /usr/include/stdc-predef.h /usr/include/ctype.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -13,9 +13,9 @@ CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /home/ns/Rocketry/sbgECom/common/sbgCommon.h \
- /home/ns/Rocketry/sbgECom/common/sbgConfig.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h /usr/include/assert.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgConfig.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h /usr/include/assert.h \
  /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -59,19 +59,19 @@ CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: \
  /usr/include/string.h /usr/include/strings.h /usr/include/time.h \
  /usr/include/bits/time.h /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/sbgTypes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h \
- /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgTypes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/string/sbgString.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferBE.h
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferBE.h

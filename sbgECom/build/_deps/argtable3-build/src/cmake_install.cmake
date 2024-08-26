@@ -1,4 +1,4 @@
-# Install script for directory: /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src
+# Install script for directory: /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/libargtable3.so.0.0.0"
-    "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/libargtable3.so.0.0"
+    "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/libargtable3.so.0.0.0"
+    "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/libargtable3.so.0.0"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libargtable3.so.0.0.0"
@@ -72,22 +72,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/libargtable3.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/libargtable3.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/libargtable3_static.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/libargtable3_static.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3/Argtable3Config.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3/Argtable3Config.cmake"
-         "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config.cmake")
+         "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3/Argtable3Config-*.cmake")
       if(_cmake_old_config_files)
@@ -100,9 +100,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3" TYPE FILE FILES "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3" TYPE FILE FILES "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3" TYPE FILE FILES "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/argtable3" TYPE FILE FILES "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/CMakeFiles/Export/5299a864666ce5535b09bb85e405abd1/Argtable3Config-release.cmake")
   endif()
 endif()
 

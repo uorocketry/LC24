@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/examples/pulseMinimal/src/pulseMinimal.c" "CMakeFiles/pulseMinimal.dir/examples/pulseMinimal/src/pulseMinimal.c.o" "gcc" "CMakeFiles/pulseMinimal.dir/examples/pulseMinimal/src/pulseMinimal.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/examples/pulseMinimal/src/pulseMinimal.c" "CMakeFiles/pulseMinimal.dir/examples/pulseMinimal/src/pulseMinimal.c.o" "gcc" "CMakeFiles/pulseMinimal.dir/examples/pulseMinimal/src/pulseMinimal.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/examples/hpInsMinimal/src/hpInsMinimal.c" "CMakeFiles/hpInsMinimal.dir/examples/hpInsMinimal/src/hpInsMinimal.c.o" "gcc" "CMakeFiles/hpInsMinimal.dir/examples/hpInsMinimal/src/hpInsMinimal.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/examples/hpInsMinimal/src/hpInsMinimal.c" "CMakeFiles/hpInsMinimal.dir/examples/hpInsMinimal/src/hpInsMinimal.c.o" "gcc" "CMakeFiles/hpInsMinimal.dir/examples/hpInsMinimal/src/hpInsMinimal.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

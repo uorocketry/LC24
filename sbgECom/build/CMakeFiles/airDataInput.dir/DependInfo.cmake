@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/examples/airDataInput/src/airDataInput.c" "CMakeFiles/airDataInput.dir/examples/airDataInput/src/airDataInput.c.o" "gcc" "CMakeFiles/airDataInput.dir/examples/airDataInput/src/airDataInput.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/examples/airDataInput/src/airDataInput.c" "CMakeFiles/airDataInput.dir/examples/airDataInput/src/airDataInput.c.o" "gcc" "CMakeFiles/airDataInput.dir/examples/airDataInput/src/airDataInput.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/sbgECom/build/CMakeFiles /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples//CMakeFiles/progress.marks
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/sbgECom/build/CMakeFiles 0
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples//CMakeFiles/progress.marks
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/clean
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/preinstall
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/preinstall
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/echo.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/echo.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/echo.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/echo.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ echo: _deps/argtable3-build/examples/CMakeFiles/echo.dir/rule
 
 # fast build rule for target.
 echo/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/build
 .PHONY : echo/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/ls.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/ls.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/ls.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/ls.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ ls: _deps/argtable3-build/examples/CMakeFiles/ls.dir/rule
 
 # fast build rule for target.
 ls/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/build
 .PHONY : ls/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ multisyntax: _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/rule
 
 # fast build rule for target.
 multisyntax/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build
 .PHONY : multisyntax/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/mv.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/mv.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/mv.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/mv.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ mv: _deps/argtable3-build/examples/CMakeFiles/mv.dir/rule
 
 # fast build rule for target.
 mv/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/build
 .PHONY : mv/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/myprog.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/myprog.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/myprog.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/myprog.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ myprog: _deps/argtable3-build/examples/CMakeFiles/myprog.dir/rule
 
 # fast build rule for target.
 myprog/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build
 .PHONY : myprog/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ myprog_C89: _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/rule
 
 # fast build rule for target.
 myprog_C89/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build
 .PHONY : myprog_C89/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/rule
 
 # Convenience name for target.
@@ -256,12 +256,12 @@ testargtable3: _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/rule
 
 # fast build rule for target.
 testargtable3/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build
 .PHONY : testargtable3/fast
 
 # Convenience name for target.
 _deps/argtable3-build/examples/CMakeFiles/uname.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/uname.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/examples/CMakeFiles/uname.dir/rule
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/uname.dir/rule
 
 # Convenience name for target.
@@ -270,7 +270,7 @@ uname: _deps/argtable3-build/examples/CMakeFiles/uname.dir/rule
 
 # fast build rule for target.
 uname/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/build
 .PHONY : uname/fast
 
 echo.o: echo.c.o
@@ -278,7 +278,7 @@ echo.o: echo.c.o
 
 # target to build an object file
 echo.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.o
 .PHONY : echo.c.o
 
 echo.i: echo.c.i
@@ -286,7 +286,7 @@ echo.i: echo.c.i
 
 # target to preprocess a source file
 echo.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.i
 .PHONY : echo.c.i
 
 echo.s: echo.c.s
@@ -294,7 +294,7 @@ echo.s: echo.c.s
 
 # target to generate assembly for a file
 echo.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/echo.dir/build.make _deps/argtable3-build/examples/CMakeFiles/echo.dir/echo.c.s
 .PHONY : echo.c.s
 
 ls.o: ls.c.o
@@ -302,7 +302,7 @@ ls.o: ls.c.o
 
 # target to build an object file
 ls.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.o
 .PHONY : ls.c.o
 
 ls.i: ls.c.i
@@ -310,7 +310,7 @@ ls.i: ls.c.i
 
 # target to preprocess a source file
 ls.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.i
 .PHONY : ls.c.i
 
 ls.s: ls.c.s
@@ -318,7 +318,7 @@ ls.s: ls.c.s
 
 # target to generate assembly for a file
 ls.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/ls.dir/build.make _deps/argtable3-build/examples/CMakeFiles/ls.dir/ls.c.s
 .PHONY : ls.c.s
 
 multisyntax.o: multisyntax.c.o
@@ -326,7 +326,7 @@ multisyntax.o: multisyntax.c.o
 
 # target to build an object file
 multisyntax.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o
 .PHONY : multisyntax.c.o
 
 multisyntax.i: multisyntax.c.i
@@ -334,7 +334,7 @@ multisyntax.i: multisyntax.c.i
 
 # target to preprocess a source file
 multisyntax.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.i
 .PHONY : multisyntax.c.i
 
 multisyntax.s: multisyntax.c.s
@@ -342,7 +342,7 @@ multisyntax.s: multisyntax.c.s
 
 # target to generate assembly for a file
 multisyntax.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.s
 .PHONY : multisyntax.c.s
 
 mv.o: mv.c.o
@@ -350,7 +350,7 @@ mv.o: mv.c.o
 
 # target to build an object file
 mv.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.o
 .PHONY : mv.c.o
 
 mv.i: mv.c.i
@@ -358,7 +358,7 @@ mv.i: mv.c.i
 
 # target to preprocess a source file
 mv.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.i
 .PHONY : mv.c.i
 
 mv.s: mv.c.s
@@ -366,7 +366,7 @@ mv.s: mv.c.s
 
 # target to generate assembly for a file
 mv.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/mv.dir/build.make _deps/argtable3-build/examples/CMakeFiles/mv.dir/mv.c.s
 .PHONY : mv.c.s
 
 myprog.o: myprog.c.o
@@ -374,7 +374,7 @@ myprog.o: myprog.c.o
 
 # target to build an object file
 myprog.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.o
 .PHONY : myprog.c.o
 
 myprog.i: myprog.c.i
@@ -382,7 +382,7 @@ myprog.i: myprog.c.i
 
 # target to preprocess a source file
 myprog.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.i
 .PHONY : myprog.c.i
 
 myprog.s: myprog.c.s
@@ -390,7 +390,7 @@ myprog.s: myprog.c.s
 
 # target to generate assembly for a file
 myprog.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog.dir/myprog.c.s
 .PHONY : myprog.c.s
 
 myprog_C89.o: myprog_C89.c.o
@@ -398,7 +398,7 @@ myprog_C89.o: myprog_C89.c.o
 
 # target to build an object file
 myprog_C89.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.o
 .PHONY : myprog_C89.c.o
 
 myprog_C89.i: myprog_C89.c.i
@@ -406,7 +406,7 @@ myprog_C89.i: myprog_C89.c.i
 
 # target to preprocess a source file
 myprog_C89.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.i
 .PHONY : myprog_C89.c.i
 
 myprog_C89.s: myprog_C89.c.s
@@ -414,7 +414,7 @@ myprog_C89.s: myprog_C89.c.s
 
 # target to generate assembly for a file
 myprog_C89.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/build.make _deps/argtable3-build/examples/CMakeFiles/myprog_C89.dir/myprog_C89.c.s
 .PHONY : myprog_C89.c.s
 
 testargtable3.o: testargtable3.c.o
@@ -422,7 +422,7 @@ testargtable3.o: testargtable3.c.o
 
 # target to build an object file
 testargtable3.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.o
 .PHONY : testargtable3.c.o
 
 testargtable3.i: testargtable3.c.i
@@ -430,7 +430,7 @@ testargtable3.i: testargtable3.c.i
 
 # target to preprocess a source file
 testargtable3.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.i
 .PHONY : testargtable3.c.i
 
 testargtable3.s: testargtable3.c.s
@@ -438,7 +438,7 @@ testargtable3.s: testargtable3.c.s
 
 # target to generate assembly for a file
 testargtable3.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/build.make _deps/argtable3-build/examples/CMakeFiles/testargtable3.dir/testargtable3.c.s
 .PHONY : testargtable3.c.s
 
 uname.o: uname.c.o
@@ -446,7 +446,7 @@ uname.o: uname.c.o
 
 # target to build an object file
 uname.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o
 .PHONY : uname.c.o
 
 uname.i: uname.c.i
@@ -454,7 +454,7 @@ uname.i: uname.c.i
 
 # target to preprocess a source file
 uname.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.i
 .PHONY : uname.c.i
 
 uname.s: uname.c.s
@@ -462,7 +462,7 @@ uname.s: uname.c.s
 
 # target to generate assembly for a file
 uname.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/examples/CMakeFiles/uname.dir/build.make _deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.s
 .PHONY : uname.c.s
 
 # Help Target
@@ -520,6 +520,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

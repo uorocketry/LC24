@@ -1,5 +1,5 @@
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/main.cpp \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/signal.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -165,9 +165,9 @@ CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/14.1.1/limits \
  /usr/include/c++/14.1.1/bits/parse_numbers.h \
- /home/ns/Rocketry/sbgECom/common/sbgCommon.h \
- /home/ns/Rocketry/sbgECom/common/sbgConfig.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h /usr/include/assert.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgConfig.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h /usr/include/assert.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/float.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/limits.h \
@@ -185,47 +185,48 @@ CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: \
  /usr/include/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdbool.h \
  /usr/include/c++/14.1.1/stdlib.h /usr/include/string.h \
- /usr/include/strings.h /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/sbgTypes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h \
- /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/src/sbgECom.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.h \
- /home/ns/Rocketry/sbgECom/src/sbgECanId.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComIds.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComIds.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.h \
- /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.h \
- /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.h \
- /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerApp.h \
+ /usr/include/strings.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgTypes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgECanId.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComIds.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComIds.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferBE.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerApp.h \
  /usr/include/c++/14.1.1/functional \
  /usr/include/c++/14.1.1/bits/std_function.h \
  /usr/include/c++/14.1.1/memory \
@@ -242,48 +243,48 @@ CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: \
  /usr/include/c++/14.1.1/bits/atomic_base.h \
  /usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.1.1/backward/auto_ptr.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComLib.h \
- /home/ns/Rocketry/sbgECom/common/crc/sbgCrc.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceUdp.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerial.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceFile.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.h \
- /home/ns/Rocketry/sbgECom/common/splitBuffer/sbgSplitBuffer.h \
- /home/ns/Rocketry/sbgECom/common/network/sbgNetwork.h \
- /home/ns/Rocketry/sbgECom/common/swap/sbgSwap.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmd.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAirData.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdApi.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdDvl.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEthernet.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEvent.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdFeatures.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdGnss.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInfo.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInterface.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdLicense.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdMag.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOdo.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOutput.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSensor.h \
- /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSettings.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComVersion.h \
- /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComLib.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/crc/sbgCrc.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceUdp.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerial.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceFile.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/splitBuffer/sbgSplitBuffer.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/network/sbgNetwork.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/swap/sbgSwap.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmd.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAirData.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdApi.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdDvl.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEthernet.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEvent.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdFeatures.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdGnss.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInfo.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInterface.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdLicense.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdMag.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOdo.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOutput.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSensor.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSettings.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComVersion.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.h \
  /usr/include/c++/14.1.1/unordered_map \
  /usr/include/c++/14.1.1/bits/unordered_map.h \
  /usr/include/c++/14.1.1/bits/hashtable.h \
  /usr/include/c++/14.1.1/bits/hashtable_policy.h \
  /usr/include/c++/14.1.1/bits/enable_special_members.h \
  /usr/include/c++/14.1.1/bits/erase_if.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.h \
  /usr/include/c++/14.1.1/fstream \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.1.1/bits/fstream.tcc \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.h \
- /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.h
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.h \
+ /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.h

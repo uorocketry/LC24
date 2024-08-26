@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ellipseOnboardMagCalib.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/ellipseOnboardMagCalib.dir/progress.make
 include CMakeFiles/ellipseOnboardMagCalib.dir/flags.make
 
 CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o: CMakeFiles/ellipseOnboardMagCalib.dir/flags.make
-CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o: /home/ns/Rocketry/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c
+CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o: /home/ns/Rocketry/LC24/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c
 CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o: CMakeFiles/ellipseOnboardMagCalib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o -MF CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o.d -o CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o -c /home/ns/Rocketry/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o -MF CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o.d -o CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o -c /home/ns/Rocketry/LC24/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c
 
 CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c > CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c > CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.i
 
 CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c -o CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c -o CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.s
 
 # Object files for target ellipseOnboardMagCalib
 ellipseOnboardMagCalib_OBJECTS = \
@@ -94,7 +94,7 @@ ellipseOnboardMagCalib: CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOn
 ellipseOnboardMagCalib: CMakeFiles/ellipseOnboardMagCalib.dir/build.make
 ellipseOnboardMagCalib: libsbgECom.a
 ellipseOnboardMagCalib: CMakeFiles/ellipseOnboardMagCalib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ellipseOnboardMagCalib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ellipseOnboardMagCalib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ellipseOnboardMagCalib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/ellipseOnboardMagCalib.dir/clean:
 .PHONY : CMakeFiles/ellipseOnboardMagCalib.dir/clean
 
 CMakeFiles/ellipseOnboardMagCalib.dir/depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/CMakeFiles/ellipseOnboardMagCalib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles/ellipseOnboardMagCalib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ellipseOnboardMagCalib.dir/depend
 

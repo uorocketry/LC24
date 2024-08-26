@@ -1,4 +1,4 @@
-# Install script for directory: /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests
+# Install script for directory: /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

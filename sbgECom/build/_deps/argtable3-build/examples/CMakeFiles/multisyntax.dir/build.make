@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/flags.make
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o: _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/flags.make
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o: _deps/argtable3-src/examples/multisyntax.c
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o: _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o -MF CMakeFiles/multisyntax.dir/multisyntax.c.o.d -o CMakeFiles/multisyntax.dir/multisyntax.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.o -MF CMakeFiles/multisyntax.dir/multisyntax.c.o.d -o CMakeFiles/multisyntax.dir/multisyntax.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c
 
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/multisyntax.dir/multisyntax.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c > CMakeFiles/multisyntax.dir/multisyntax.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c > CMakeFiles/multisyntax.dir/multisyntax.c.i
 
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/multisyntax.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/multisyntax.dir/multisyntax.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c -o CMakeFiles/multisyntax.dir/multisyntax.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/examples/multisyntax.c -o CMakeFiles/multisyntax.dir/multisyntax.c.s
 
 # Object files for target multisyntax
 multisyntax_OBJECTS = \
@@ -94,18 +94,18 @@ _deps/argtable3-build/examples/multisyntax: _deps/argtable3-build/examples/CMake
 _deps/argtable3-build/examples/multisyntax: _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build.make
 _deps/argtable3-build/examples/multisyntax: _deps/argtable3-build/src/libargtable3.so.0.0.0
 _deps/argtable3-build/examples/multisyntax: _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable multisyntax"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multisyntax.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable multisyntax"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multisyntax.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build: _deps/argtable3-build/examples/multisyntax
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/build
 
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/clean:
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples && $(CMAKE_COMMAND) -P CMakeFiles/multisyntax.dir/cmake_clean.cmake
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples && $(CMAKE_COMMAND) -P CMakeFiles/multisyntax.dir/cmake_clean.cmake
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/clean
 
 _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/examples /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/examples /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/argtable3-build/examples/CMakeFiles/multisyntax.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sbgECom.dir/depend.make
@@ -70,774 +70,774 @@ include CMakeFiles/sbgECom.dir/progress.make
 include CMakeFiles/sbgECom.dir/flags.make
 
 CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: /home/ns/Rocketry/sbgECom/common/crc/sbgCrc.c
+CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: /home/ns/Rocketry/LC24/sbgECom/common/crc/sbgCrc.c
 CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -MF CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o.d -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -c /home/ns/Rocketry/sbgECom/common/crc/sbgCrc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -MF CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o.d -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/crc/sbgCrc.c
 
 CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/crc/sbgCrc.c > CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/crc/sbgCrc.c > CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.i
 
 CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/crc/sbgCrc.c -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/crc/sbgCrc.c -o CMakeFiles/sbgECom.dir/common/crc/sbgCrc.c.s
 
 CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.c
+CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.c
 CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -MF CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o.d -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -c /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -MF CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o.d -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.c
 
 CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.c > CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.c > CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.i
 
 CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.c -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.c -o CMakeFiles/sbgECom.dir/common/debug/sbgDebug.c.s
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.c
+CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.c
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -c /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.c
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.i
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterface.c.s
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceFile.c
+CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceFile.c
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -c /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceFile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceFile.c
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceFile.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceFile.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.i
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceFile.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceFile.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceFile.c.s
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
+CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -c /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.i
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.s
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceUdp.c
+CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceUdp.c
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -c /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceUdp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -MF CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o.d -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceUdp.c
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceUdp.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceUdp.c > CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.i
 
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceUdp.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceUdp.c -o CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceUdp.c.s
 
 CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: /home/ns/Rocketry/sbgECom/common/network/sbgNetwork.c
+CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: /home/ns/Rocketry/LC24/sbgECom/common/network/sbgNetwork.c
 CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -MF CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o.d -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -c /home/ns/Rocketry/sbgECom/common/network/sbgNetwork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -MF CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o.d -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/network/sbgNetwork.c
 
 CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/network/sbgNetwork.c > CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/network/sbgNetwork.c > CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.i
 
 CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/network/sbgNetwork.c -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/network/sbgNetwork.c -o CMakeFiles/sbgECom.dir/common/network/sbgNetwork.c.s
 
 CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.c
+CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.c
 CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -MF CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o.d -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -c /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -MF CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o.d -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.c
 
 CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.c > CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.c > CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.i
 
 CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.c -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.c -o CMakeFiles/sbgECom.dir/common/platform/sbgPlatform.c.s
 
 CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: /home/ns/Rocketry/sbgECom/common/splitBuffer/sbgSplitBuffer.c
+CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: /home/ns/Rocketry/LC24/sbgECom/common/splitBuffer/sbgSplitBuffer.c
 CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -c /home/ns/Rocketry/sbgECom/common/splitBuffer/sbgSplitBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/splitBuffer/sbgSplitBuffer.c
 
 CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/splitBuffer/sbgSplitBuffer.c > CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/splitBuffer/sbgSplitBuffer.c > CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.i
 
 CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/splitBuffer/sbgSplitBuffer.c -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/splitBuffer/sbgSplitBuffer.c -o CMakeFiles/sbgECom.dir/common/splitBuffer/sbgSplitBuffer.c.s
 
 CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.c
+CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.c
 CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -c /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -MF CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o.d -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.c
 
 CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.c > CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.c > CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.i
 
 CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.c -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.c -o CMakeFiles/sbgECom.dir/common/streamBuffer/sbgStreamBuffer.c.s
 
 CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: /home/ns/Rocketry/sbgECom/common/string/sbgString.c
+CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.c
 CMakeFiles/sbgECom.dir/common/string/sbgString.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sbgECom.dir/common/string/sbgString.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -MF CMakeFiles/sbgECom.dir/common/string/sbgString.c.o.d -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -c /home/ns/Rocketry/sbgECom/common/string/sbgString.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sbgECom.dir/common/string/sbgString.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -MF CMakeFiles/sbgECom.dir/common/string/sbgString.c.o.d -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.c
 
 CMakeFiles/sbgECom.dir/common/string/sbgString.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/string/sbgString.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/string/sbgString.c > CMakeFiles/sbgECom.dir/common/string/sbgString.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.c > CMakeFiles/sbgECom.dir/common/string/sbgString.c.i
 
 CMakeFiles/sbgECom.dir/common/string/sbgString.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/string/sbgString.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/string/sbgString.c -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/string/sbgString.c -o CMakeFiles/sbgECom.dir/common/string/sbgString.c.s
 
 CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: /home/ns/Rocketry/sbgECom/common/swap/sbgSwap.c
+CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: /home/ns/Rocketry/LC24/sbgECom/common/swap/sbgSwap.c
 CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -MF CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o.d -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -c /home/ns/Rocketry/sbgECom/common/swap/sbgSwap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -MF CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o.d -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/swap/sbgSwap.c
 
 CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/swap/sbgSwap.c > CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/swap/sbgSwap.c > CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.i
 
 CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/swap/sbgSwap.c -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/swap/sbgSwap.c -o CMakeFiles/sbgECom.dir/common/swap/sbgSwap.c.s
 
 CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: /home/ns/Rocketry/sbgECom/common/version/sbgVersion.c
+CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: /home/ns/Rocketry/LC24/sbgECom/common/version/sbgVersion.c
 CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -MF CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o.d -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -c /home/ns/Rocketry/sbgECom/common/version/sbgVersion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -MF CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o.d -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.o -c /home/ns/Rocketry/LC24/sbgECom/common/version/sbgVersion.c
 
 CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/common/version/sbgVersion.c > CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/common/version/sbgVersion.c > CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.i
 
 CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/common/version/sbgVersion.c -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/common/version/sbgVersion.c -o CMakeFiles/sbgECom.dir/common/version/sbgVersion.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAdvanced.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAdvanced.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAdvanced.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAirData.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAirData.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAirData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAirData.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAirData.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAirData.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdAirData.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdAirData.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdAirData.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdApi.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdApi.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdApi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdApi.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdApi.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdApi.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdApi.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdApi.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdApi.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdCommon.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdCommon.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdCommon.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdDvl.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdDvl.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdDvl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdDvl.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdDvl.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdDvl.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdDvl.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdDvl.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdDvl.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEthernet.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEthernet.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEthernet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEthernet.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEthernet.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEthernet.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEthernet.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEthernet.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEthernet.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEvent.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEvent.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEvent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEvent.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEvent.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEvent.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdEvent.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdEvent.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdEvent.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdFeatures.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdFeatures.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdFeatures.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdFeatures.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdFeatures.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdFeatures.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdFeatures.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdFeatures.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdFeatures.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdGnss.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdGnss.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdGnss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdGnss.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdGnss.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdGnss.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdGnss.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdGnss.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdGnss.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInfo.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInfo.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInfo.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInfo.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInfo.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInfo.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInfo.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInfo.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInterface.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInterface.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInterface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInterface.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInterface.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInterface.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdInterface.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdInterface.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdInterface.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdLicense.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdLicense.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdLicense.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdLicense.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdLicense.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdLicense.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdLicense.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdLicense.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdLicense.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdMag.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdMag.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdMag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdMag.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdMag.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdMag.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdMag.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdMag.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdMag.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOdo.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOdo.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOdo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOdo.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOdo.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOdo.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOdo.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOdo.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOdo.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOutput.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOutput.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOutput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOutput.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOutput.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOutput.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdOutput.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdOutput.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdOutput.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSensor.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSensor.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSensor.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSensor.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSensor.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSensor.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSensor.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSensor.c.s
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSettings.c
+CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSettings.c
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -c /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSettings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -MF CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o.d -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSettings.c
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSettings.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSettings.c > CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.i
 
 CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/commands/sbgEComCmdSettings.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/commands/sbgEComCmdSettings.c -o CMakeFiles/sbgECom.dir/src/commands/sbgEComCmdSettings.c.s
 
 CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.c
+CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.c
 CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -MF CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -c /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -MF CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o.d -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.c
 
 CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.c > CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.c > CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.i
 
 CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/defs/sbgEComDefsGnss.c -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/defs/sbgEComDefsGnss.c -o CMakeFiles/sbgECom.dir/src/defs/sbgEComDefsGnss.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLog.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLog.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLog.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogAirData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogAirData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogAirData.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDepth.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDepth.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDepth.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDiag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDiag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDiag.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogDvl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogDvl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogDvl.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkf.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkf.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkf.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEkfRotAccel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEkfRotAccel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEkfRotAccel.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogEvent.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogEvent.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogEvent.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssHdt.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssHdt.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssHdt.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssPos.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssPos.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssPos.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogGnssVel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogGnssVel.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogGnssVel.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogImu.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogImu.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogImu.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogMag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogMag.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogMag.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogOdometer.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogOdometer.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogOdometer.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogRawData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogRawData.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogRawData.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogSat.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogSat.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogSat.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogStatus.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogStatus.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogStatus.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUsbl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUsbl.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUsbl.c.s
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.c
+CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.c
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -c /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -MF CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o.d -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.c
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.c > CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.i
 
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogUtc.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogUtc.c -o CMakeFiles/sbgECom.dir/src/logs/sbgEComLogUtc.c.s
 
 CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.c
+CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.c
 CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -MF CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o.d -o CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -c /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -MF CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o.d -o CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.c
 
 CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.c > CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.c > CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.i
 
 CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/protocol/sbgEComProtocol.c -o CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/protocol/sbgEComProtocol.c -o CMakeFiles/sbgECom.dir/src/protocol/sbgEComProtocol.c.s
 
 CMakeFiles/sbgECom.dir/src/sbgECom.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/sbgECom.c.o: /home/ns/Rocketry/sbgECom/src/sbgECom.c
+CMakeFiles/sbgECom.dir/src/sbgECom.c.o: /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.c
 CMakeFiles/sbgECom.dir/src/sbgECom.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sbgECom.dir/src/sbgECom.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/sbgECom.c.o -MF CMakeFiles/sbgECom.dir/src/sbgECom.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgECom.c.o -c /home/ns/Rocketry/sbgECom/src/sbgECom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sbgECom.dir/src/sbgECom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/sbgECom.c.o -MF CMakeFiles/sbgECom.dir/src/sbgECom.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgECom.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.c
 
 CMakeFiles/sbgECom.dir/src/sbgECom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/sbgECom.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/sbgECom.c > CMakeFiles/sbgECom.dir/src/sbgECom.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.c > CMakeFiles/sbgECom.dir/src/sbgECom.c.i
 
 CMakeFiles/sbgECom.dir/src/sbgECom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/sbgECom.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/sbgECom.c -o CMakeFiles/sbgECom.dir/src/sbgECom.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/sbgECom.c -o CMakeFiles/sbgECom.dir/src/sbgECom.c.s
 
 CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.c
+CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.c
 CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -MF CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -c /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -MF CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o.d -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.c
 
 CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.c > CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.c > CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.i
 
 CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/sbgEComGetVersion.c -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/sbgEComGetVersion.c -o CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.s
 
 CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: CMakeFiles/sbgECom.dir/flags.make
-CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: /home/ns/Rocketry/sbgECom/src/transfer/sbgEComTransfer.c
+CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: /home/ns/Rocketry/LC24/sbgECom/src/transfer/sbgEComTransfer.c
 CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o: CMakeFiles/sbgECom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -MF CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o.d -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -c /home/ns/Rocketry/sbgECom/src/transfer/sbgEComTransfer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -MF CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o.d -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o -c /home/ns/Rocketry/LC24/sbgECom/src/transfer/sbgEComTransfer.c
 
 CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/src/transfer/sbgEComTransfer.c > CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/src/transfer/sbgEComTransfer.c > CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.i
 
 CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/src/transfer/sbgEComTransfer.c -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/src/transfer/sbgEComTransfer.c -o CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.s
 
 # Object files for target sbgECom
 sbgECom_OBJECTS = \
@@ -957,7 +957,7 @@ libsbgECom.a: CMakeFiles/sbgECom.dir/src/sbgEComGetVersion.c.o
 libsbgECom.a: CMakeFiles/sbgECom.dir/src/transfer/sbgEComTransfer.c.o
 libsbgECom.a: CMakeFiles/sbgECom.dir/build.make
 libsbgECom.a: CMakeFiles/sbgECom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C static library libsbgECom.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C static library libsbgECom.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sbgECom.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbgECom.dir/link.txt --verbose=$(VERBOSE)
 
@@ -970,6 +970,6 @@ CMakeFiles/sbgECom.dir/clean:
 .PHONY : CMakeFiles/sbgECom.dir/clean
 
 CMakeFiles/sbgECom.dir/depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/CMakeFiles/sbgECom.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles/sbgECom.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sbgECom.dir/depend
 

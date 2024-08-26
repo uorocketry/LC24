@@ -1,7 +1,7 @@
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o: \
- /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/arg_lit.c \
+ /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/arg_lit.c \
  /usr/include/stdc-predef.h \
- /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3.h \
+ /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -24,7 +24,7 @@ _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o: \
  /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src/argtable3_private.h \
+ /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src/argtable3_private.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/pthreadtypes.h \

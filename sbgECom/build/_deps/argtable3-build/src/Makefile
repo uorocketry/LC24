@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/sbgECom/build/CMakeFiles /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src//CMakeFiles/progress.marks
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/sbgECom/build/CMakeFiles 0
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src//CMakeFiles/progress.marks
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/clean
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/preinstall
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/preinstall
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/argtable3-build/src/CMakeFiles/argtable3.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/CMakeFiles/argtable3.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/CMakeFiles/argtable3.dir/rule
 .PHONY : _deps/argtable3-build/src/CMakeFiles/argtable3.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ argtable3: _deps/argtable3-build/src/CMakeFiles/argtable3.dir/rule
 
 # fast build rule for target.
 argtable3/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build
 .PHONY : argtable3/fast
 
 # Convenience name for target.
 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/rule:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/rule
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/rule
 .PHONY : _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ argtable3_static: _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/rule
 
 # fast build rule for target.
 argtable3_static/fast:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build
 .PHONY : argtable3_static/fast
 
 arg_cmd.o: arg_cmd.c.o
@@ -194,8 +194,8 @@ arg_cmd.o: arg_cmd.c.o
 
 # target to build an object file
 arg_cmd.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.o
 .PHONY : arg_cmd.c.o
 
 arg_cmd.i: arg_cmd.c.i
@@ -203,8 +203,8 @@ arg_cmd.i: arg_cmd.c.i
 
 # target to preprocess a source file
 arg_cmd.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.i
 .PHONY : arg_cmd.c.i
 
 arg_cmd.s: arg_cmd.c.s
@@ -212,8 +212,8 @@ arg_cmd.s: arg_cmd.c.s
 
 # target to generate assembly for a file
 arg_cmd.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_cmd.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_cmd.c.s
 .PHONY : arg_cmd.c.s
 
 arg_date.o: arg_date.c.o
@@ -221,8 +221,8 @@ arg_date.o: arg_date.c.o
 
 # target to build an object file
 arg_date.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.o
 .PHONY : arg_date.c.o
 
 arg_date.i: arg_date.c.i
@@ -230,8 +230,8 @@ arg_date.i: arg_date.c.i
 
 # target to preprocess a source file
 arg_date.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.i
 .PHONY : arg_date.c.i
 
 arg_date.s: arg_date.c.s
@@ -239,8 +239,8 @@ arg_date.s: arg_date.c.s
 
 # target to generate assembly for a file
 arg_date.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_date.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_date.c.s
 .PHONY : arg_date.c.s
 
 arg_dbl.o: arg_dbl.c.o
@@ -248,8 +248,8 @@ arg_dbl.o: arg_dbl.c.o
 
 # target to build an object file
 arg_dbl.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.o
 .PHONY : arg_dbl.c.o
 
 arg_dbl.i: arg_dbl.c.i
@@ -257,8 +257,8 @@ arg_dbl.i: arg_dbl.c.i
 
 # target to preprocess a source file
 arg_dbl.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.i
 .PHONY : arg_dbl.c.i
 
 arg_dbl.s: arg_dbl.c.s
@@ -266,8 +266,8 @@ arg_dbl.s: arg_dbl.c.s
 
 # target to generate assembly for a file
 arg_dbl.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dbl.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dbl.c.s
 .PHONY : arg_dbl.c.s
 
 arg_dstr.o: arg_dstr.c.o
@@ -275,8 +275,8 @@ arg_dstr.o: arg_dstr.c.o
 
 # target to build an object file
 arg_dstr.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.o
 .PHONY : arg_dstr.c.o
 
 arg_dstr.i: arg_dstr.c.i
@@ -284,8 +284,8 @@ arg_dstr.i: arg_dstr.c.i
 
 # target to preprocess a source file
 arg_dstr.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.i
 .PHONY : arg_dstr.c.i
 
 arg_dstr.s: arg_dstr.c.s
@@ -293,8 +293,8 @@ arg_dstr.s: arg_dstr.c.s
 
 # target to generate assembly for a file
 arg_dstr.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_dstr.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_dstr.c.s
 .PHONY : arg_dstr.c.s
 
 arg_end.o: arg_end.c.o
@@ -302,8 +302,8 @@ arg_end.o: arg_end.c.o
 
 # target to build an object file
 arg_end.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.o
 .PHONY : arg_end.c.o
 
 arg_end.i: arg_end.c.i
@@ -311,8 +311,8 @@ arg_end.i: arg_end.c.i
 
 # target to preprocess a source file
 arg_end.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.i
 .PHONY : arg_end.c.i
 
 arg_end.s: arg_end.c.s
@@ -320,8 +320,8 @@ arg_end.s: arg_end.c.s
 
 # target to generate assembly for a file
 arg_end.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_end.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_end.c.s
 .PHONY : arg_end.c.s
 
 arg_file.o: arg_file.c.o
@@ -329,8 +329,8 @@ arg_file.o: arg_file.c.o
 
 # target to build an object file
 arg_file.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.o
 .PHONY : arg_file.c.o
 
 arg_file.i: arg_file.c.i
@@ -338,8 +338,8 @@ arg_file.i: arg_file.c.i
 
 # target to preprocess a source file
 arg_file.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.i
 .PHONY : arg_file.c.i
 
 arg_file.s: arg_file.c.s
@@ -347,8 +347,8 @@ arg_file.s: arg_file.c.s
 
 # target to generate assembly for a file
 arg_file.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_file.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_file.c.s
 .PHONY : arg_file.c.s
 
 arg_hashtable.o: arg_hashtable.c.o
@@ -356,8 +356,8 @@ arg_hashtable.o: arg_hashtable.c.o
 
 # target to build an object file
 arg_hashtable.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.o
 .PHONY : arg_hashtable.c.o
 
 arg_hashtable.i: arg_hashtable.c.i
@@ -365,8 +365,8 @@ arg_hashtable.i: arg_hashtable.c.i
 
 # target to preprocess a source file
 arg_hashtable.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.i
 .PHONY : arg_hashtable.c.i
 
 arg_hashtable.s: arg_hashtable.c.s
@@ -374,8 +374,8 @@ arg_hashtable.s: arg_hashtable.c.s
 
 # target to generate assembly for a file
 arg_hashtable.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_hashtable.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_hashtable.c.s
 .PHONY : arg_hashtable.c.s
 
 arg_int.o: arg_int.c.o
@@ -383,8 +383,8 @@ arg_int.o: arg_int.c.o
 
 # target to build an object file
 arg_int.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.o
 .PHONY : arg_int.c.o
 
 arg_int.i: arg_int.c.i
@@ -392,8 +392,8 @@ arg_int.i: arg_int.c.i
 
 # target to preprocess a source file
 arg_int.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.i
 .PHONY : arg_int.c.i
 
 arg_int.s: arg_int.c.s
@@ -401,8 +401,8 @@ arg_int.s: arg_int.c.s
 
 # target to generate assembly for a file
 arg_int.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_int.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_int.c.s
 .PHONY : arg_int.c.s
 
 arg_lit.o: arg_lit.c.o
@@ -410,8 +410,8 @@ arg_lit.o: arg_lit.c.o
 
 # target to build an object file
 arg_lit.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.o
 .PHONY : arg_lit.c.o
 
 arg_lit.i: arg_lit.c.i
@@ -419,8 +419,8 @@ arg_lit.i: arg_lit.c.i
 
 # target to preprocess a source file
 arg_lit.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.i
 .PHONY : arg_lit.c.i
 
 arg_lit.s: arg_lit.c.s
@@ -428,8 +428,8 @@ arg_lit.s: arg_lit.c.s
 
 # target to generate assembly for a file
 arg_lit.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_lit.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_lit.c.s
 .PHONY : arg_lit.c.s
 
 arg_rem.o: arg_rem.c.o
@@ -437,8 +437,8 @@ arg_rem.o: arg_rem.c.o
 
 # target to build an object file
 arg_rem.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.o
 .PHONY : arg_rem.c.o
 
 arg_rem.i: arg_rem.c.i
@@ -446,8 +446,8 @@ arg_rem.i: arg_rem.c.i
 
 # target to preprocess a source file
 arg_rem.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.i
 .PHONY : arg_rem.c.i
 
 arg_rem.s: arg_rem.c.s
@@ -455,8 +455,8 @@ arg_rem.s: arg_rem.c.s
 
 # target to generate assembly for a file
 arg_rem.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rem.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rem.c.s
 .PHONY : arg_rem.c.s
 
 arg_rex.o: arg_rex.c.o
@@ -464,8 +464,8 @@ arg_rex.o: arg_rex.c.o
 
 # target to build an object file
 arg_rex.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.o
 .PHONY : arg_rex.c.o
 
 arg_rex.i: arg_rex.c.i
@@ -473,8 +473,8 @@ arg_rex.i: arg_rex.c.i
 
 # target to preprocess a source file
 arg_rex.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.i
 .PHONY : arg_rex.c.i
 
 arg_rex.s: arg_rex.c.s
@@ -482,8 +482,8 @@ arg_rex.s: arg_rex.c.s
 
 # target to generate assembly for a file
 arg_rex.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_rex.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_rex.c.s
 .PHONY : arg_rex.c.s
 
 arg_str.o: arg_str.c.o
@@ -491,8 +491,8 @@ arg_str.o: arg_str.c.o
 
 # target to build an object file
 arg_str.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.o
 .PHONY : arg_str.c.o
 
 arg_str.i: arg_str.c.i
@@ -500,8 +500,8 @@ arg_str.i: arg_str.c.i
 
 # target to preprocess a source file
 arg_str.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.i
 .PHONY : arg_str.c.i
 
 arg_str.s: arg_str.c.s
@@ -509,8 +509,8 @@ arg_str.s: arg_str.c.s
 
 # target to generate assembly for a file
 arg_str.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_str.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_str.c.s
 .PHONY : arg_str.c.s
 
 arg_utils.o: arg_utils.c.o
@@ -518,8 +518,8 @@ arg_utils.o: arg_utils.c.o
 
 # target to build an object file
 arg_utils.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.o
 .PHONY : arg_utils.c.o
 
 arg_utils.i: arg_utils.c.i
@@ -527,8 +527,8 @@ arg_utils.i: arg_utils.c.i
 
 # target to preprocess a source file
 arg_utils.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.i
 .PHONY : arg_utils.c.i
 
 arg_utils.s: arg_utils.c.s
@@ -536,8 +536,8 @@ arg_utils.s: arg_utils.c.s
 
 # target to generate assembly for a file
 arg_utils.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/arg_utils.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/arg_utils.c.s
 .PHONY : arg_utils.c.s
 
 argtable3.o: argtable3.c.o
@@ -545,8 +545,8 @@ argtable3.o: argtable3.c.o
 
 # target to build an object file
 argtable3.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.o
 .PHONY : argtable3.c.o
 
 argtable3.i: argtable3.c.i
@@ -554,8 +554,8 @@ argtable3.i: argtable3.c.i
 
 # target to preprocess a source file
 argtable3.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.i
 .PHONY : argtable3.c.i
 
 argtable3.s: argtable3.c.s
@@ -563,8 +563,8 @@ argtable3.s: argtable3.c.s
 
 # target to generate assembly for a file
 argtable3.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/argtable3.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/argtable3.c.s
 .PHONY : argtable3.c.s
 
 getopt_long.o: getopt_long.c.o
@@ -572,8 +572,8 @@ getopt_long.o: getopt_long.c.o
 
 # target to build an object file
 getopt_long.c.o:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.o
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.o
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.o
 .PHONY : getopt_long.c.o
 
 getopt_long.i: getopt_long.c.i
@@ -581,8 +581,8 @@ getopt_long.i: getopt_long.c.i
 
 # target to preprocess a source file
 getopt_long.c.i:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.i
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.i
 .PHONY : getopt_long.c.i
 
 getopt_long.s: getopt_long.c.s
@@ -590,8 +590,8 @@ getopt_long.s: getopt_long.c.s
 
 # target to generate assembly for a file
 getopt_long.c.s:
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.s
-	cd /home/ns/Rocketry/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3.dir/getopt_long.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(MAKE) $(MAKESILENT) -f _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/build.make _deps/argtable3-build/src/CMakeFiles/argtable3_static.dir/getopt_long.c.s
 .PHONY : getopt_long.c.s
 
 # Help Target
@@ -664,6 +664,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

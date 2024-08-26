@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sbgBasicLogger.dir/depend.make
@@ -70,242 +70,242 @@ include CMakeFiles/sbgBasicLogger.dir/progress.make
 include CMakeFiles/sbgBasicLogger.dir/flags.make
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/helpers/imuDataMean.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryAidings.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryDvl.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkf.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEkfRotAccel.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryEvent.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGeneral.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryGnss.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryImu.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryMag.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerEntry/loggerEntryShipMotion.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerContext.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerEntry.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerManager.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerManager/loggerSettings.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/loggerApp.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/loggerApp.cpp.s
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: CMakeFiles/sbgBasicLogger.dir/flags.make
-CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/main.cpp
+CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/main.cpp
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o: CMakeFiles/sbgBasicLogger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o -c /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o -MF CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o.d -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.o -c /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/main.cpp
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/main.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/main.cpp > CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.i
 
 CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src/main.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src/main.cpp -o CMakeFiles/sbgBasicLogger.dir/tools/sbgBasicLogger/src/main.cpp.s
 
 # Object files for target sbgBasicLogger
 sbgBasicLogger_OBJECTS = \
@@ -351,7 +351,7 @@ sbgBasicLogger: CMakeFiles/sbgBasicLogger.dir/build.make
 sbgBasicLogger: libsbgECom.a
 sbgBasicLogger: _deps/argtable3-build/src/libargtable3_static.a
 sbgBasicLogger: CMakeFiles/sbgBasicLogger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable sbgBasicLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable sbgBasicLogger"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sbgBasicLogger.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -363,6 +363,6 @@ CMakeFiles/sbgBasicLogger.dir/clean:
 .PHONY : CMakeFiles/sbgBasicLogger.dir/clean
 
 CMakeFiles/sbgBasicLogger.dir/depend:
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/CMakeFiles/sbgBasicLogger.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles/sbgBasicLogger.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sbgBasicLogger.dir/depend
 

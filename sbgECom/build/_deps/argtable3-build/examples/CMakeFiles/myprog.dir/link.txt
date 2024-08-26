@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/myprog.dir/myprog.c.o -o myprog  -Wl,-rpath,/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src ../src/libargtable3.so.0.0.0 -lm
+/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/myprog.dir/myprog.c.o -o myprog  -Wl,-rpath,/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src ../src/libargtable3.so.0.0.0 -lm

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/examples/uname.c" "_deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o" "gcc" "_deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/examples/uname.c" "_deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o" "gcc" "_deps/argtable3-build/examples/CMakeFiles/uname.dir/uname.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

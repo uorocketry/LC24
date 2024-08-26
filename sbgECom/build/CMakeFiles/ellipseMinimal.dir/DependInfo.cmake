@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/examples/ellipseMinimal/src/ellipseMinimal.c" "CMakeFiles/ellipseMinimal.dir/examples/ellipseMinimal/src/ellipseMinimal.c.o" "gcc" "CMakeFiles/ellipseMinimal.dir/examples/ellipseMinimal/src/ellipseMinimal.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/examples/ellipseMinimal/src/ellipseMinimal.c" "CMakeFiles/ellipseMinimal.dir/examples/ellipseMinimal/src/ellipseMinimal.c.o" "gcc" "CMakeFiles/ellipseMinimal.dir/examples/ellipseMinimal/src/ellipseMinimal.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

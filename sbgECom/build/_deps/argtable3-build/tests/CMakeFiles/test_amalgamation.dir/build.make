@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ns/Rocketry/sbgECom
+CMAKE_SOURCE_DIR = /home/ns/Rocketry/LC24/sbgECom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ns/Rocketry/sbgECom/build
+CMAKE_BINARY_DIR = /home/ns/Rocketry/LC24/sbgECom/build
 
 # Include any dependencies generated for this target.
 include _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/depend.make
@@ -70,190 +70,190 @@ include _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/progress.ma
 include _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 
 _deps/argtable3-src/dist/argtable3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../argtable3-src/dist/argtable3.c"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tools && /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tools/build dist
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../argtable3-src/dist/argtable3.c"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tools && /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tools/build dist
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o: _deps/argtable3-src/tests/testall.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o -MF CMakeFiles/test_amalgamation.dir/testall.c.o.d -o CMakeFiles/test_amalgamation.dir/testall.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.o -MF CMakeFiles/test_amalgamation.dir/testall.c.o.d -o CMakeFiles/test_amalgamation.dir/testall.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testall.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testall.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testall.c > CMakeFiles/test_amalgamation.dir/testall.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testall.c > CMakeFiles/test_amalgamation.dir/testall.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testall.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testall.c -o CMakeFiles/test_amalgamation.dir/testall.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testall.c -o CMakeFiles/test_amalgamation.dir/testall.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o: _deps/argtable3-src/tests/testarglit.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o -MF CMakeFiles/test_amalgamation.dir/testarglit.c.o.d -o CMakeFiles/test_amalgamation.dir/testarglit.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarglit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.o -MF CMakeFiles/test_amalgamation.dir/testarglit.c.o.d -o CMakeFiles/test_amalgamation.dir/testarglit.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarglit.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testarglit.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarglit.c > CMakeFiles/test_amalgamation.dir/testarglit.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarglit.c > CMakeFiles/test_amalgamation.dir/testarglit.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarglit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testarglit.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarglit.c -o CMakeFiles/test_amalgamation.dir/testarglit.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarglit.c -o CMakeFiles/test_amalgamation.dir/testarglit.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o: _deps/argtable3-src/tests/testargstr.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o -MF CMakeFiles/test_amalgamation.dir/testargstr.c.o.d -o CMakeFiles/test_amalgamation.dir/testargstr.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.o -MF CMakeFiles/test_amalgamation.dir/testargstr.c.o.d -o CMakeFiles/test_amalgamation.dir/testargstr.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargstr.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargstr.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargstr.c > CMakeFiles/test_amalgamation.dir/testargstr.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargstr.c > CMakeFiles/test_amalgamation.dir/testargstr.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargstr.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargstr.c -o CMakeFiles/test_amalgamation.dir/testargstr.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargstr.c -o CMakeFiles/test_amalgamation.dir/testargstr.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o: _deps/argtable3-src/tests/testargint.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o -MF CMakeFiles/test_amalgamation.dir/testargint.c.o.d -o CMakeFiles/test_amalgamation.dir/testargint.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.o -MF CMakeFiles/test_amalgamation.dir/testargint.c.o.d -o CMakeFiles/test_amalgamation.dir/testargint.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargint.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargint.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargint.c > CMakeFiles/test_amalgamation.dir/testargint.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargint.c > CMakeFiles/test_amalgamation.dir/testargint.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargint.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargint.c -o CMakeFiles/test_amalgamation.dir/testargint.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargint.c -o CMakeFiles/test_amalgamation.dir/testargint.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o: _deps/argtable3-src/tests/testargdate.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o -MF CMakeFiles/test_amalgamation.dir/testargdate.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdate.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.o -MF CMakeFiles/test_amalgamation.dir/testargdate.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdate.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdate.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargdate.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdate.c > CMakeFiles/test_amalgamation.dir/testargdate.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdate.c > CMakeFiles/test_amalgamation.dir/testargdate.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargdate.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdate.c -o CMakeFiles/test_amalgamation.dir/testargdate.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdate.c -o CMakeFiles/test_amalgamation.dir/testargdate.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o: _deps/argtable3-src/tests/testargdbl.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o -MF CMakeFiles/test_amalgamation.dir/testargdbl.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdbl.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.o -MF CMakeFiles/test_amalgamation.dir/testargdbl.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdbl.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargdbl.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c > CMakeFiles/test_amalgamation.dir/testargdbl.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c > CMakeFiles/test_amalgamation.dir/testargdbl.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdbl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargdbl.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c -o CMakeFiles/test_amalgamation.dir/testargdbl.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdbl.c -o CMakeFiles/test_amalgamation.dir/testargdbl.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o: _deps/argtable3-src/tests/testargfile.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o -MF CMakeFiles/test_amalgamation.dir/testargfile.c.o.d -o CMakeFiles/test_amalgamation.dir/testargfile.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.o -MF CMakeFiles/test_amalgamation.dir/testargfile.c.o.d -o CMakeFiles/test_amalgamation.dir/testargfile.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargfile.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargfile.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargfile.c > CMakeFiles/test_amalgamation.dir/testargfile.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargfile.c > CMakeFiles/test_amalgamation.dir/testargfile.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargfile.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargfile.c -o CMakeFiles/test_amalgamation.dir/testargfile.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargfile.c -o CMakeFiles/test_amalgamation.dir/testargfile.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o: _deps/argtable3-src/tests/testargrex.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o -MF CMakeFiles/test_amalgamation.dir/testargrex.c.o.d -o CMakeFiles/test_amalgamation.dir/testargrex.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargrex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.o -MF CMakeFiles/test_amalgamation.dir/testargrex.c.o.d -o CMakeFiles/test_amalgamation.dir/testargrex.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargrex.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargrex.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargrex.c > CMakeFiles/test_amalgamation.dir/testargrex.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargrex.c > CMakeFiles/test_amalgamation.dir/testargrex.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargrex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargrex.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargrex.c -o CMakeFiles/test_amalgamation.dir/testargrex.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargrex.c -o CMakeFiles/test_amalgamation.dir/testargrex.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o: _deps/argtable3-src/tests/testargdstr.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o -MF CMakeFiles/test_amalgamation.dir/testargdstr.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdstr.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.o -MF CMakeFiles/test_amalgamation.dir/testargdstr.c.o.d -o CMakeFiles/test_amalgamation.dir/testargdstr.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargdstr.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c > CMakeFiles/test_amalgamation.dir/testargdstr.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c > CMakeFiles/test_amalgamation.dir/testargdstr.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargdstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargdstr.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c -o CMakeFiles/test_amalgamation.dir/testargdstr.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargdstr.c -o CMakeFiles/test_amalgamation.dir/testargdstr.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o: _deps/argtable3-src/tests/testargcmd.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o -MF CMakeFiles/test_amalgamation.dir/testargcmd.c.o.d -o CMakeFiles/test_amalgamation.dir/testargcmd.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.o -MF CMakeFiles/test_amalgamation.dir/testargcmd.c.o.d -o CMakeFiles/test_amalgamation.dir/testargcmd.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testargcmd.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c > CMakeFiles/test_amalgamation.dir/testargcmd.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c > CMakeFiles/test_amalgamation.dir/testargcmd.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testargcmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testargcmd.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c -o CMakeFiles/test_amalgamation.dir/testargcmd.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testargcmd.c -o CMakeFiles/test_amalgamation.dir/testargcmd.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o: _deps/argtable3-src/tests/CuTest.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o -MF CMakeFiles/test_amalgamation.dir/CuTest.c.o.d -o CMakeFiles/test_amalgamation.dir/CuTest.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/CuTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.o -MF CMakeFiles/test_amalgamation.dir/CuTest.c.o.d -o CMakeFiles/test_amalgamation.dir/CuTest.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/CuTest.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/CuTest.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/CuTest.c > CMakeFiles/test_amalgamation.dir/CuTest.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/CuTest.c > CMakeFiles/test_amalgamation.dir/CuTest.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/CuTest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/CuTest.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/CuTest.c -o CMakeFiles/test_amalgamation.dir/CuTest.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/CuTest.c -o CMakeFiles/test_amalgamation.dir/CuTest.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o: _deps/argtable3-src/tests/testarghashtable.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o -MF CMakeFiles/test_amalgamation.dir/testarghashtable.c.o.d -o CMakeFiles/test_amalgamation.dir/testarghashtable.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.o -MF CMakeFiles/test_amalgamation.dir/testarghashtable.c.o.d -o CMakeFiles/test_amalgamation.dir/testarghashtable.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/testarghashtable.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c > CMakeFiles/test_amalgamation.dir/testarghashtable.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c > CMakeFiles/test_amalgamation.dir/testarghashtable.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/testarghashtable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/testarghashtable.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c -o CMakeFiles/test_amalgamation.dir/testarghashtable.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests/testarghashtable.c -o CMakeFiles/test_amalgamation.dir/testarghashtable.c.s
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/flags.make
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o: _deps/argtable3-src/dist/argtable3.c
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o -MF CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o.d -o CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o -c /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/dist/argtable3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o -MF CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o.d -o CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o -c /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/dist/argtable3.c
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.i"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/dist/argtable3.c > CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.i
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/dist/argtable3.c > CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.i
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.s"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/dist/argtable3.c -o CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.s
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/dist/argtable3.c -o CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.s
 
 # Object files for target test_amalgamation
 test_amalgamation_OBJECTS = \
@@ -289,19 +289,19 @@ _deps/argtable3-build/tests/test_amalgamation: _deps/argtable3-build/tests/CMake
 _deps/argtable3-build/tests/test_amalgamation: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/__/dist/argtable3.c.o
 _deps/argtable3-build/tests/test_amalgamation: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/build.make
 _deps/argtable3-build/tests/test_amalgamation: _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable test_amalgamation"
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tools && /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tools/build dist
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_amalgamation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ns/Rocketry/LC24/sbgECom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable test_amalgamation"
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tools && /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tools/build dist
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_amalgamation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/build: _deps/argtable3-build/tests/test_amalgamation
 .PHONY : _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/build
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/clean:
-	cd /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_amalgamation.dir/cmake_clean.cmake
+	cd /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_amalgamation.dir/cmake_clean.cmake
 .PHONY : _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/clean
 
 _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/depend: _deps/argtable3-src/dist/argtable3.c
-	cd /home/ns/Rocketry/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/sbgECom /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/tests /home/ns/Rocketry/sbgECom/build /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests /home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ns/Rocketry/LC24/sbgECom/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ns/Rocketry/LC24/sbgECom /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/tests /home/ns/Rocketry/LC24/sbgECom/build /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/argtable3-build/tests/CMakeFiles/test_amalgamation.dir/depend
 

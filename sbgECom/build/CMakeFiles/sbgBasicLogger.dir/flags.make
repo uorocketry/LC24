@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSBG_COMMON_STATIC_USE -DSBG_ECOM_USE_DEPRECATED_MACROS
 
-CXX_INCLUDES = -I/home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src -I/home/ns/Rocketry/sbgECom/tools/sbgBasicLogger/src -I/home/ns/Rocketry/sbgECom/src -I/home/ns/Rocketry/sbgECom/common
+CXX_INCLUDES = -I/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src -I/home/ns/Rocketry/LC24/sbgECom/tools/sbgBasicLogger/src -I/home/ns/Rocketry/LC24/sbgECom/src -I/home/ns/Rocketry/LC24/sbgECom/common
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14 -fPIE
 

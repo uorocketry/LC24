@@ -1,4 +1,4 @@
-# Install script for directory: /home/ns/Rocketry/sbgECom/build/_deps/argtable3-src
+# Install script for directory: /home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/src/cmake_install.cmake")
-  include("/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/examples/cmake_install.cmake")
-  include("/home/ns/Rocketry/sbgECom/build/_deps/argtable3-build/tests/cmake_install.cmake")
+  include("/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/src/cmake_install.cmake")
+  include("/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/examples/cmake_install.cmake")
+  include("/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-build/tests/cmake_install.cmake")
 
 endif()
 

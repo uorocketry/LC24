@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate-complete.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/CMakeFiles/argtable3-populate-complete.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-build.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-build.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-configure.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-configure.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-download.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-download.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-install.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-install.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-mkdir.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-patch.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-patch.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-test.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-test.rule"
 		},
 		{
-			"file" : "/home/ns/Rocketry/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-update.rule"
+			"file" : "/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-subbuild/argtable3-populate-prefix/src/argtable3-populate-stamp/argtable3-populate-update.rule"
 		}
 	],
 	"target" : 

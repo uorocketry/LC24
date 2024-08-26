@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DARGTABLE3_TEST_PUBLIC_ONLY -DSBG_ECOM_USE_DEPRECATED_MACROS
 
-C_INCLUDES = -I/home/ns/Rocketry/sbgECom/build/_deps/argtable3-src/src
+C_INCLUDES = -I/home/ns/Rocketry/LC24/sbgECom/build/_deps/argtable3-src/src
 
 C_FLAGS = -O3 -DNDEBUG -std=gnu99 -fPIE
 

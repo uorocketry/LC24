@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ns/Rocketry/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c" "CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o" "gcc" "CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o.d"
+  "/home/ns/Rocketry/LC24/sbgECom/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c" "CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o" "gcc" "CMakeFiles/ellipseOnboardMagCalib.dir/examples/ellipseOnboardMagCalib/src/ellipseOnboardMagCalib.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

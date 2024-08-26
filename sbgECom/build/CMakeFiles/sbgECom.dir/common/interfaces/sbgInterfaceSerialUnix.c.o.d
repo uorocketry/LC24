@@ -1,5 +1,5 @@
 CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerialUnix.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -39,9 +39,9 @@ CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: \
  /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
  /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
- /home/ns/Rocketry/sbgECom/common/sbgCommon.h \
- /home/ns/Rocketry/sbgECom/common/sbgConfig.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h /usr/include/assert.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgConfig.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h /usr/include/assert.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/float.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h \
@@ -77,12 +77,12 @@ CMakeFiles/sbgECom.dir/common/interfaces/sbgInterfaceSerialUnix.c.o: \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/sbgTypes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h \
- /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterfaceSerial.h \
- /home/ns/Rocketry/sbgECom/common/interfaces/sbgInterface.h
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgTypes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterfaceSerial.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/interfaces/sbgInterface.h

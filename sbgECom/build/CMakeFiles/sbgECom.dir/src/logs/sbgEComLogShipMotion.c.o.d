@@ -1,10 +1,10 @@
 CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.c \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.c \
  /usr/include/stdc-predef.h \
- /home/ns/Rocketry/sbgECom/src/logs/sbgEComLogShipMotion.h \
- /home/ns/Rocketry/sbgECom/common/sbgCommon.h \
- /home/ns/Rocketry/sbgECom/common/sbgConfig.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h /usr/include/assert.h \
+ /home/ns/Rocketry/LC24/sbgECom/src/logs/sbgEComLogShipMotion.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgConfig.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h /usr/include/assert.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
@@ -62,18 +62,18 @@ CMakeFiles/sbgECom.dir/src/logs/sbgEComLogShipMotion.c.o: \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/sbgTypes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/sbgDefines.h \
- /home/ns/Rocketry/sbgECom/common/platform/sbgPlatform.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgTypes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgDefines.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/platform/sbgPlatform.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/bits/unistd_ext.h \
- /home/ns/Rocketry/sbgECom/common/sbgErrorCodes.h \
- /home/ns/Rocketry/sbgECom/common/debug/sbgDebug.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
- /home/ns/Rocketry/sbgECom/common/streamBuffer/sbgStreamBufferBE.h
+ /home/ns/Rocketry/LC24/sbgECom/common/sbgErrorCodes.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/debug/sbgDebug.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBuffer.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferLE.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferCommon.h \
+ /home/ns/Rocketry/LC24/sbgECom/common/streamBuffer/sbgStreamBufferBE.h

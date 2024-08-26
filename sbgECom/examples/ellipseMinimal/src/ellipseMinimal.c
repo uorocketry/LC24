@@ -35,7 +35,7 @@
 // sbgCommonLib headers
 #include <sbgCommon.h>
 #include <version/sbgVersion.h>
-
+#include <stdio.h>
 // sbgECom headers
 #include <sbgEComLib.h>
 
@@ -45,8 +45,92 @@
 
 float HIGHEST_ALT = 0.0; // Highest altitude reached
 static float previous_altitude = 0.0;
-static unsigned long previous_timestamp = 0;
-static float MAX_VELOCITY = 0.0;
+
+void logDataToCSV(uint32_t timestamp, float altitude, float pressure)
+{
+	FILE *file = fopen("air_data_log.csv", "a");
+	if (file == NULL)
+	{
+		perror("Failed to open file");
+		return;
+	}
+
+	// Write header if the file is empty
+	fseek(file, 0, SEEK_END);
+	if (ftell(file) == 0)
+	{
+		fprintf(file, "Timestamp, Altitude, Pressure\n");
+	}
+
+	// Write data
+	fprintf(file, "%u,%3.1f,%3.2f\n", timestamp, altitude, pressure);
+
+	fclose(file);
+}
+
+// Function to log IMU data to a CSV file
+void logIMUDataToCSV(float accelX, float accelY, float accelZ, float gyroX, float gyroY, float gyroZ, 
+                     float deltaAngleX, float deltaAngleY, float deltaAngleZ, 
+                     float deltaVelocityX, float deltaVelocityY, float deltaVelocityZ, 
+                     float temperature, uint32_t timestamp) {
+    FILE *file = fopen("imu_data_log.csv", "a");
+    if (file == NULL) {
+        perror("Failed to open file");
+        return;
+    }
+
+    // Write header if the file is empty
+    fseek(file, 0, SEEK_END);
+    if (ftell(file) == 0) {
+        fprintf(file, "Accel X,Accel Y,Accel Z,Gyro X,Gyro Y,Gyro Z,Delta Angle X,Delta Angle Y,Delta Angle Z,Delta Velocity X,Delta Velocity Y,Delta Velocity Z,Temp,Timestamp\n");
+    }
+
+    // Write data
+    fprintf(file, "%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%3.2f,%u\n",
+            accelX, accelY, accelZ, gyroX, gyroY, gyroZ, deltaAngleX, deltaAngleY, deltaAngleZ, 
+            deltaVelocityX, deltaVelocityY, deltaVelocityZ, temperature, timestamp);
+
+    fclose(file);
+}
+// Function to log velocity data to a CSV file
+void logVelocityDataToCSV(float velocityNorth, float velocityEast, float velocityDown, uint32_t timestamp) {
+    FILE *file = fopen("velocity_data_log.csv", "a");
+    if (file == NULL) {
+        perror("Failed to open file");
+        return;
+    }
+
+    // Write header if the file is empty
+    fseek(file, 0, SEEK_END);
+    if (ftell(file) == 0) {
+        fprintf(file, "Velocity North,Velocity East,Velocity Down,Timestamp\n");
+    }
+
+    // Write data
+    fprintf(file, "%3.2f,%3.2f,%3.2f,%u\n", velocityNorth, velocityEast, velocityDown, timestamp);
+
+    fclose(file);
+}
+
+// Function to log Euler angles and timestamp to a CSV file
+void logEulerDataToCSV(float roll, float pitch, float yaw, uint32_t timestamp) {
+    FILE *file = fopen("euler_data_log.csv", "a");
+    if (file == NULL) {
+        perror("Failed to open file");
+        return;
+    }
+
+    // Write header if the file is empty
+    fseek(file, 0, SEEK_END);
+    if (ftell(file) == 0) {
+        fprintf(file, "Roll Rad,Pitch Rad,Yaw Rad,Timestamp\n");
+    }
+
+    // Write data
+    fprintf(file, "%3.2f,%3.2f,%3.2f,%u\n", roll, pitch, yaw, timestamp);
+
+    fclose(file);
+}
 /*!
  * Callback definition called each time a new log is received.
  *
@@ -71,37 +155,37 @@ static SbgErrorCode onLogReceived(SbgEComHandle *pHandle, SbgEComClass msgClass,
 		//
 		switch (msg)
 		{
+		case SBG_ECOM_LOG_EKF_EULER:
+			printf("Roll Rad %3.2f\t, Pitch Rad %3.2f\t, Yaw Rad %3.2f\t, Timestamp %u\t\n", pLogData->ekfEulerData.euler[0], pLogData->ekfEulerData.euler[1], pLogData->ekfEulerData.euler[2], pLogData->ekfEulerData.timeStamp);
+			
+			logEulerDataToCSV(pLogData->ekfEulerData.euler[0], pLogData->ekfEulerData.euler[1], pLogData->ekfEulerData.euler[2], 
+					pLogData->ekfEulerData.timeStamp);
+		case SBG_ECOM_LOG_EKF_NAV:
+			printf("Velocity North %3.2f\t, Velocity East %3.2f\t, Velocity Down %3.2f\t, Timestamp %u\t\n", pLogData->ekfNavData.velocity[0], pLogData->ekfNavData.velocity[1], pLogData->ekfNavData.velocity[2], pLogData->ekfNavData.timeStamp);
+					
+			// Log data to CSV file
+			logVelocityDataToCSV(pLogData->ekfNavData.velocity[0], pLogData->ekfNavData.velocity[1], pLogData->ekfNavData.velocity[2], 
+								pLogData->ekfNavData.timeStamp);
+		case SBG_ECOM_LOG_IMU_DATA:
+			printf("Acel X: %3.2f\t, Accel Y: %3.2f\t, Accel Z: %3.2f\t, Gyro X: %3.2f\t, Gyro Y: %3.2f\t, Gyro Z: %3.2f\t, Delta Angle X: %3.2f\t, Delta Angle Y: %3.2f\t, Delta Angle Z: %3.2f\t, Delta Velocity X: %3.2f\t, Delta Velocity Y: %3.2f\t, Delta Velocity Z: %3.2f\t, Temp: %3.2f\t, Timestamp: %u\t\n", pLogData->imuData.accelerometers[0], pLogData->imuData.accelerometers[1], pLogData->imuData.accelerometers[2], pLogData->imuData.gyroscopes[0], pLogData->imuData.gyroscopes[1], pLogData->imuData.gyroscopes[2], pLogData->imuData.deltaAngle[0], pLogData->imuData.deltaAngle[1], pLogData->imuData.deltaAngle[2], pLogData->imuData.deltaVelocity[0], pLogData->imuData.deltaVelocity[1], pLogData->imuData.deltaVelocity[2], pLogData->imuData.temperature, pLogData->imuData.timeStamp);
+		logIMUDataToCSV(pLogData->imuData.accelerometers[0], pLogData->imuData.accelerometers[1], pLogData->imuData.accelerometers[2], 
+                pLogData->imuData.gyroscopes[0], pLogData->imuData.gyroscopes[1], pLogData->imuData.gyroscopes[2], 
+                pLogData->imuData.deltaAngle[0], pLogData->imuData.deltaAngle[1], pLogData->imuData.deltaAngle[2], 
+                pLogData->imuData.deltaVelocity[0], pLogData->imuData.deltaVelocity[1], pLogData->imuData.deltaVelocity[2], 
+                pLogData->imuData.temperature, pLogData->imuData.timeStamp);
 		case SBG_ECOM_LOG_AIR_DATA:
 
 			float recent = pLogData->airData.altitude;
-			unsigned long current_timestamp = pLogData->airData.timeStamp;
 
 			float delta_altitude = recent - previous_altitude;
-			unsigned long delta_time = current_timestamp - previous_timestamp;
-
-			// Convert delta_time from microseconds to seconds
-			float delta_time_seconds = delta_time / 1e6;
-
-			// Calculate the velocity (altitude change per second)
-			float velocity = 0.0;
-			if (delta_time_seconds > 0)
-			{
-				velocity = delta_altitude / delta_time_seconds;
-			}
-
-			// Update the maximum velocity if the current velocity is higher
-			if (velocity > MAX_VELOCITY)
-			{
-				MAX_VELOCITY = velocity;
-			}
 
 			// Print the altitude, max altitude, and max velocity
-			printf("Altitude: %3.1f\t, Max Alt: %3.1f\t, Max Velocity: %3.2f m/s\n",
-				   pLogData->airData.altitude, HIGHEST_ALT, MAX_VELOCITY);
+			printf("Altitude: %3.1f\t, pressure: %3.1f\t, Temperature: %3.2f\t\n",
+				   pLogData->airData.altitude, pLogData->airData.pressureAbs, pLogData->airData.airTemperature);
 
 			// Update the previous altitude and timestamp for the next calculation
 			previous_altitude = recent;
-			previous_timestamp = current_timestamp;
+			logDataToCSV(pLogData->airData.timeStamp, pLogData->airData.altitude, pLogData->airData.pressureAbs);
 
 			if (HIGHEST_ALT < recent)
 			{
@@ -117,14 +201,6 @@ static SbgErrorCode onLogReceived(SbgEComHandle *pHandle, SbgEComClass msgClass,
 			// printf("Altitude: %3.1f\t, Max Alt:%3.1f\t",
 			// 	pLogData->airData.altitude, HIGHEST_ALT);
 			// 	pLogData->airData.timeStamp;
-			break;
-		case SBG_ECOM_LOG_EKF_EULER:
-			//
-			// Simply display euler angles in real time
-			//
-			// printf("Euler Angles: %3.1f\t%3.1f\t%3.1f\tStd Dev:%3.1f\t%3.1f\t%3.1f   \r",
-			// sbgRadToDegf(pLogData->ekfEulerData.euler[0]),			sbgRadToDegf(pLogData->ekfEulerData.euler[1]),			sbgRadToDegf(pLogData->ekfEulerData.euler[2]),
-			// sbgRadToDegf(pLogData->ekfEulerData.eulerStdDev[0]),	sbgRadToDegf(pLogData->ekfEulerData.eulerStdDev[1]),	sbgRadToDegf(pLogData->ekfEulerData.eulerStdDev[2]));
 			break;
 		default:
 			break;
